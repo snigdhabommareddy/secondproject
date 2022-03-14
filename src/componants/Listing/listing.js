@@ -44,14 +44,7 @@ class Listing extends Component {
                     <div class="row">
                         <div class="col-lg-2 mt-5 sorting">
                             <h4 class="text-center fw-bold head">Sort By</h4>
-                            <h5 class="text-secondary mt-5 ms-4">Price</h5>
-                            <div class="category mt-4">
-                                <input type="radio" name="flexRadio" class="mb-4 me-3" />0-100<br />
-                                <input type="radio" name="flexRadio" class="mb-4 me-3" />100-300<br />
-                                <input type="radio" name="flexRadio" class="mb-4 me-3" />300-500<br />
-                                <input type="radio" name="flexRadio" class="mb-4 me-3" />500-1000<br />
-                                <input type="radio" name="flexRadio" class="mb-4 me-3" />1000-2000<br />
-                            </div>
+                            
                         </div>
                         <div class="col-lg-10 mt-5">
                             <div class="row ms-4">
