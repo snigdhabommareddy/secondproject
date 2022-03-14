@@ -14,6 +14,7 @@ const ProductListing = (props) => {
                                     <div class="card-body">
                                         <h5 class="card-title text-center fw-bold text-danger">{item.name}</h5>
                                         <p class="card-text text-secondary text-center">{item.description}</p>
+                                        <p class="card-text text-danger text-center">Rs.{item.price}</p>
                                         <Link to={`/details/${item.id}`} key={item.id} class="btn btn-success text-white text-center addcart">Show Details</Link>
                                     </div>
                                 </div>
